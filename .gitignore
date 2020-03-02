@@ -28,6 +28,31 @@ sites/*/private
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
 
+# Ignore drupal core
+/core
+/modules/README.txt
+/profiles/README.txt
+/sites/README.txt
+/sites/example.sites.php
+/sites/example.settings.local.php
+/sites/development.services.yml
+/themes/README.txt
+/.csslintrc
+/.editorconfig
+/.eslintignore
+/.eslintrc.json
+/.gitattributes
+/.htaccess
+/autoload.php
+/composer.json
+/composer.lock
+/example.gitignore
+/index.php
+/LICENSE.txt
+/README.txt
+/robots.txt
+/update.php
+/web.config
 # If you prefer to store your .gitignore file in the sites/ folder, comment
 # or delete the previous settings and uncomment the following ones, instead.
 
